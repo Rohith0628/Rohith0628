@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Museum Admin Panel</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Arial", sans-serif;
+      }
+
+      body {
+        display: flex;
+        min-height: 100vh;
+        background-color: #f4f4f4;
+      }
+
+      .sidebar {
+        width: 250px;
+        background-color: #333;
+        color: white;
+        padding: 20px;
+      }
+
+      .sidebar h2 {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .sidebar ul {
+        list-style-type: none;
+      }
+
+      .sidebar ul li {
+        margin: 15px 0;
+      }
+
+      .sidebar ul li a {
+        text-decoration: none;
+        color: white;
+        display: block;
+        padding: 10px;
+        border-radius: 5px;
+        transition: background 0.3s ease;
+      }
+
+      .sidebar ul li a:hover {
+        background-color: #555;
+      }
+
+      .main-content {
+        flex: 1;
+        padding: 20px;
+      }
+
+      .main-content h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+
+      .cards {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+
+      .card {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: calc(33% - 20px);
+        min-width: 250px;
+        text-align: center;
+      }
+
+      .card h3 {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+      }
+
+      .card p {
+        font-size: 1.1em;
+      }
+
+      .card a {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 15px;
+        background-color: #333;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background 0.3s ease;
+      }
+
+      .card a:hover {
+        background-color: #555;
+      }
+
+      @media (max-width: 768px) {
+        .cards {
+          flex-direction: column;
+        }
+
+        .card {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      <h2>Admin Panel</h2>
+      <ul>
+        <li><a href="#">Dashboard</a></li>
+
+        <li><a href="#">Reports</a></li>
+        <li><a href="#">Settings</a></li>
+        <li><a href="#">Logout</a></li>
+      </ul>
+    </div>
+
+    <div class="main-content">
+      <h1>Dashboard</h1>
+      <div class="dashboard">
+        <div class="cards">
+          <div class="card">
+            <h3>Total Visitors</h3>
+            <p>1,250</p>
+            <a href="#">View Details</a>
+          </div>
+          <div class="card">
+            <h3>Tickets Sold</h3>
+            <p>750</p>
+            <a href="#">View Details</a>
+          </div>
+          <div class="card">
+            <h3>Upcoming Events</h3>
+            <p>5</p>
+            <a href="#">View Events</a>
+          </div>
+        </div>
+        <br></br>
+        <div class="entities">
+          <h1>Recent Bookings</h1>
+          <div class="card">
+            <h3>Ticket id: 873425</h3>
+            <p>Number of tickets: 1</p>
+            <p>Date: 23/8/2024</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
