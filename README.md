@@ -8,7 +8,7 @@
 
 👆 Trying to learn **Data science** and **machine learning** using Python.
 
-👨‍💻 Check out all my projects on my [Portfolio Website](https://ran-gan.github.io/PersonalPortfolio/)  
+👨‍💻 Check out all my projects on my [Portfolio Website](https:///)  
 
 📫 Reach me at **rohithsenthil06@gmail.com**  
 
@@ -38,8 +38,8 @@
 ---
 
 ## 📊 GitHub Stats  
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ran-gan&show_icons=true&locale=en&layout=compact" alt="ran-gan" /></p>  
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=rohisenn&show_icons=true&locale=en&layout=compact" alt="rohisenn" /></p>  
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ran-gan&show_icons=true&locale=en" alt="ran-gan" /></p>  
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=rohisenn&show_icons=true&locale=en" alt="rohisenn" /></p>  
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ran-gan&" alt="ran-gan" /></p>  
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=rohisenn&" alt="rohisenn" /></p>  
