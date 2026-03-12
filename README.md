@@ -8,7 +8,7 @@
 
 👆 Trying to learn **Data science** and **machine learning** using Python.
 
-👨‍💻 Check out all my projects on my [Portfolio Website](https:///)  
+👨‍💻 Check out all my projects on my [Portfolio Website](https://rohisenn.github.io/portfolio/)  
 
 📫 Reach me at **rohithsenthil06@gmail.com**  
 
